@@ -1,0 +1,160 @@
+<html>
+
+<head>
+
+    <title>Phase11</title>
+    <link href="design1.css" rel="stylesheet" type="text/css">
+    <script src=”script.js”></script>
+
+</head>
+
+
+<body>
+    <header>
+
+        <div class="top">
+
+            <ul class="nav-menu">
+                <li class="homebott"> <a href="">Home</a> </li>
+                <li> <a href="">About</a> </li>
+                <li> <a href="">Breads</a> </li>
+                <li> <a href="">Adoption</a> </li>
+                <li> <a href="">Contact</a> </li>
+                <!---->
+            </ul>
+
+        </div>
+
+
+        <div class="tagline">
+
+                
+            <div class="yek">
+                <a href="secondPage.html" class="bttn">  Cryptocurrency  </a>
+                <!--roye dokme search k bezani mire be page1-->
+
+            </div>
+
+            
+            
+            <div class="doo">
+                <a href="third.html" class="bttn">  Coin </a>
+
+            </div>
+
+
+            <div class="se">
+                <a href="fourth.html" class="bttn"> Customer </a>
+
+            </div>
+
+
+            <div class="char">
+                <a href="fifth.html" class="bttn"> Buy </a>
+
+            </div>
+
+
+
+            <div class="panj">
+                <a href="sixth.html" class="bttn"> sell </a>
+
+            </div>
+            <br>
+            <br>
+            <br>
+<!-- 
+
+
+            <div class="shish">
+                <a href="seventh.html" class="bttn"> click6 </a>
+
+            </div>
+
+
+
+
+            <div class="haft">
+                <a href="eightth.html" class="bttn"> click7 </a>
+
+            </div>
+
+
+
+            <div class="hasht">
+                <a href="nineth.html" class="bttn"> click8 </a>
+
+            </div> -->
+
+
+
+            
+
+
+
+
+
+
+
+
+
+            <script type="text/javascript">
+                function createTable()
+                {
+                    var num_rows = document.getElementById('rows').value;
+                    var num_cols = document.getElementById('cols').value;
+                    var theader = '<table border="1">\n';
+                    var tbody = '';
+                
+                    for( var i=0; i<num_rows;i++)
+                    {
+                        tbody += '<tr>';
+                        for( var j=0; j<num_cols;j++)
+                        {
+                            tbody += '<td>';
+                            tbody += 'Cell  ' + i + ' , ' + j;
+                            tbody += '</td>'
+                        }
+                        tbody += '</tr>\n';
+                    }
+                    var tfooter = '</table>';
+                    document.getElementById('wrapper').innerHTML = theader + tbody + tfooter;
+                }
+                </script>
+                </head>
+                
+
+                <body>
+                <form name="tablegen">
+                <label>Rows: <input type="text" name="rows" id="rows"/></label><br />
+                <label>Cols: <input type="text" name="cols" id="cols"/></label><br/>
+                <input name="generate" type="button" value="Create Table!" onclick='createTable();'/>
+                </form>
+                
+                <div id="wrapper"></div>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        </div>
+
+
+
+        
+
+
+
+    </header>
+</body>
